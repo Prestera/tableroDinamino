@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#tablero {
+    display: grid;
+    gap: 10; 
+    margin-top: 10px;
+    
+}
+
+.blanco, .negro{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+}
+    
+.blanco {
+    background-color: white;
+}
+
+.negro {
+    background-color: black ;
+}
+   
+
+    
+    
+    
